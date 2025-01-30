@@ -1,0 +1,149 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B.Tech Subjects Layout</title>
+    <link rel="stylesheet" href="sem.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #f0f0f0;
+            border-bottom: 1px solid #ccc;
+        }
+        .header h1 {
+            margin: 0;
+            color: #333;
+        }
+        .columns {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .column {
+            flex: 1;
+            min-width: 200px;
+            margin: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .column h2 {
+            margin: 0;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-bottom: 1px solid #ddd;
+            font-size: 18px;
+            color: #444;
+            text-align: center;
+        }
+        .column ul {
+            list-style: none;
+            padding: 10px;
+            margin: 0;
+        }
+        .column ul li {
+            margin-bottom: 8px;
+        }
+        .column ul li a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        .column ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>B.Tech Subjects and Semesters</h1>
+        </div>
+        <div class="columns">
+            <!-- Semester 1 -->
+            <div class="column">
+                <h2>Semester 1</h2>
+                <ul>
+                    <li><a href="#">Mathematics-I</a></li>
+                    <li><a href="#">Physics</a></li>
+                    <li><a href="#">Chemistry</a></li>
+                    <li><a href="#">Engineering Mechanics</a></li>
+                    <li><a href="#">Basic Electrical Engineering</a></li>
+                </ul>
+            </div>
+            <!-- Semester 2 -->
+            <div class="column">
+                <h2>Semester 2</h2>
+                <ul>
+                    <li><a href="#">Mathematics-II</a></li>
+                    <li><a href="#">Programming in C</a></li>
+                    <li><a href="#">Engineering Drawing</a></li>
+                    <li><a href="#">Environmental Studies</a></li>
+                    <li><a href="#">Workshop Practice</a></li>
+                </ul>
+            </div>
+            <!-- Semester 3 -->
+            <div class="column">
+                <h2>Semester 3</h2>
+                <ul>
+                    <li><a href="#">Data Structures</a></li>
+                    <li><a href="#">Digital Logic Design</a></li>
+                    <li><a href="#">Signals and Systems</a></li>
+                    <li><a href="#">Discrete Mathematics</a></li>
+                    <li><a href="#">Electronic Circuits</a></li>
+                </ul>
+            </div>
+            <!-- Semester 4 -->
+            <div class="column">
+                <h2>Semester 4</h2>
+                <ul>
+                    <li><a href="#">Algorithms</a></li>
+                    <li><a href="#">Operating Systems</a></li>
+                    <li><a href="#">Computer Networks</a></li>
+                    <li><a href="#">Database Management Systems</a></li>
+                    <li><a href="#">Microprocessors</a></li>
+                </ul>
+            </div>
+            <!-- Semester 5 -->
+            <div class="column">
+                <h2>Semester 5</h2>
+                <ul>
+                    <li><a href="#">Software Engineering</a></li>
+                    <li><a href="#">Theory of Computation</a></li>
+                    <li><a href="#">Machine Learning</a></li>
+                    <li><a href="#">Artificial Intelligence</a></li>
+                    <li><a href="#">Cloud Computing</a></li>
+                </ul>
+            </div>
+            <!-- Semester 6 -->
+            <div class="column">
+                <h2>Semester 6</h2>
+                <ul>
+                    <li><a href="#">Web Technologies</a></li>
+                    <li><a href="#">Mobile Application Development</a></li>
+                    <li><a href="#">Data Science</a></li>
+                    <li><a href="#">Cybersecurity</a></li>
+                    <li><a href="#">Internet of Things</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
